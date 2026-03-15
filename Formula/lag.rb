@@ -7,20 +7,20 @@ class Lag < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/lag-app/cli/releases/download/v0.0.6-alpha/lag-0.0.6-alpha-darwin-aarch64.tar.gz"
-      sha256 "d71975614878a42f015135b820fedf0986ff30e6599acdb36d6c8ad19c540d54"
+      sha256 "f6c214aa1cd2f9071a48dc5811d87e3ef116977d23ebb9de393647a5b0b50b34"
     else
       url "https://github.com/lag-app/cli/releases/download/v0.0.6-alpha/lag-0.0.6-alpha-darwin-x86_64.tar.gz"
-      sha256 "0aca6fa6320131982150d75feaaa32631297070ad3102d804f03a08726b5d4fd"
+      sha256 "9b2f47c1f50def74823f09731d4c448cd768dda37fd3db2be4515d4133711e72"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/lag-app/cli/releases/download/v0.0.6-alpha/lag-0.0.6-alpha-linux-arm64.tar.gz"
-      sha256 "956b09fafb6689b99903c29222e947e6147170a7b73348125b472eda2352c25a"
+      sha256 "4daa24e35bc48fcc0f78bd75b233524a998194d287cc1e1f2e84fbdacbfdc8f7"
     else
       url "https://github.com/lag-app/cli/releases/download/v0.0.6-alpha/lag-0.0.6-alpha-linux-amd64.tar.gz"
-      sha256 "ad1730b10060b1f66ceace066cf2f73c37d0d7eb7db2e0f9f92b43ce38802569"
+      sha256 "e3741cd7d64cc11ce5ad262a170288410c9a04c10cb0608f37b5fbd8a9228a41"
     end
   end
 
