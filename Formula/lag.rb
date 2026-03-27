@@ -1,26 +1,26 @@
 class Lag < Formula
   desc "Terminal client for Lag voice chat"
   homepage "https://trylag.com"
-  version "0.0.8-alpha"
+  version "0.9.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lag-app/cli/releases/download/v0.0.8-alpha/lag-0.0.8-alpha-darwin-aarch64.tar.gz"
-      sha256 "7b3122a2f11060bed3468e24fe95749cb4750fecfbfc05953cd265943ca4d306"
+      url "https://github.com/lag-app/cli/releases/download/v0.9.1/lag-0.9.1-darwin-aarch64.tar.gz"
+      sha256 "51e509cd49ed4e08b544ec2516ad6597ed3572b8dada06ba3d204643219d5443"
     else
-      url "https://github.com/lag-app/cli/releases/download/v0.0.8-alpha/lag-0.0.8-alpha-darwin-x86_64.tar.gz"
-      sha256 "d745209005ac52803ffb0b5cbf49f9cb132b6b5cc292fc93d745b2bf97332f53"
+      url "https://github.com/lag-app/cli/releases/download/v0.9.1/lag-0.9.1-darwin-x86_64.tar.gz"
+      sha256 "84d0150885f3b9531471a74b91d25b25e0f79a0645c8818c48feb6866b21b6ce"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/lag-app/cli/releases/download/v0.0.8-alpha/lag-0.0.8-alpha-linux-arm64.tar.gz"
-      sha256 "634311f1caa98b46ecf4f388a996223de134c6ba46bcb2e3dc64c36bb8203e59"
+      url "https://github.com/lag-app/cli/releases/download/v0.9.1/lag-0.9.1-linux-arm64.tar.gz"
+      sha256 "964754737ee4c8b1ff0c84084ce39def69f1909501dfded99ce598d1777e6195"
     else
-      url "https://github.com/lag-app/cli/releases/download/v0.0.8-alpha/lag-0.0.8-alpha-linux-amd64.tar.gz"
-      sha256 "938159f8a0d1ccf16fbbbeb11fda5e69f6af07a7cd1dd2c01ee0fb80afd2d44d"
+      url "https://github.com/lag-app/cli/releases/download/v0.9.1/lag-0.9.1-linux-amd64.tar.gz"
+      sha256 "28f8727396cd14fc729448d44c89e40bdb2536cc9400156b678388f5f3923e9b"
     end
   end
 
